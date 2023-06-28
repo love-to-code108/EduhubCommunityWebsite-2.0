@@ -2,3 +2,9 @@ Color palatee:
 1. #0148a3(a very nice blue)
 2. white 
 3. black
+
+
+fonts used thus far:
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Poppins', sans-serif;
