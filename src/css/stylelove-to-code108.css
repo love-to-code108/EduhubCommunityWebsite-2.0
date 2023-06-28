@@ -1,0 +1,34 @@
+/* ================================================== */
+/* declaring all the root related stuff and the stuff that will effect the entire page here */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--franklin);
+}
+
+/* ================================================== */
+/* getting started with the landingPage */
+#landingPage {
+    height: 100vh;
+    width: 100%;
+}
+
+.landingPagebackground {
+    background-color: #0148a3;
+    width: inherit;
+    height: inherit;
+
+}
+
+.landingPageButton {
+    width: 15rem;
+    height: 3.2rem;
+    background-color: white;
+    border: 2px solid black;
+    font-family: var(--josef);
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
