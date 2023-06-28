@@ -6,6 +6,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: var(--franklin);
 }
 
 /* ================================================== */
@@ -27,5 +28,8 @@
     height: 3.2rem;
     background-color: white;
     border: 2px solid black;
-    
+    font-family: var(--josef);
+    font-weight: 600;
+    font-size: 1.2rem;
+
 }
