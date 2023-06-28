@@ -1,7 +1,11 @@
 console.log("Its working down here");
 
+const main = ()=>{
+    console.log("Hello world");
+}
 
-const button = document.getElementById("landBtn");
-landBtn.document.addEventListener("click", helloWorld =>{
-    console.log("am i alive");
-});
+
+
+
+let b = document.getElementById("btn");
+b.addEventListener("click", function(){ console.log("its working") });

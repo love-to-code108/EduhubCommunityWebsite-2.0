@@ -38,9 +38,12 @@ body{
     height: 50px;
     border: 2px solid black;
     border-radius: 100%;
-    position: absolute;
+    position: fixed;
     transform: translate(-50%,-50%);
     z-index: 1;
+    pointer-events: none;
+    top: 20%;
+    left: 50%;
 }
 
 #cursorInner {
@@ -49,5 +52,9 @@ body{
     background-color: black;
     border-radius: 100%;
     transform: translate(18px , 18px);
-    z-index: 108;
+    z-index: 1;
+    pointer-events: none;
+    top: 20%;
+    left: 50%;
+    
 }
