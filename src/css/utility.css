@@ -1,0 +1,51 @@
+/* ======================================= */
+/* fonts used in this website */
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+:root {
+    --blue: #0148a3;
+    --josef: 'Josefin Sans', sans-serif;
+    --franklin: 'Libre Franklin', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+
+}
+
+
+/* the body  */
+body{
+    cursor: none;
+}
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* =============================================== */
+/* defing the cursor here */
+#cursorOuter {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+}
+
+#cursorInner {
+    width: 10px;
+    height:10px;
+    background-color: black;
+    border-radius: 100%;
+    transform: translate(18px , 18px);
+}
