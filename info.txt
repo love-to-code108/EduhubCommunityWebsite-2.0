@@ -1,0 +1,4 @@
+Color palatee:
+1. #0148a3(a very nice blue)
+2. white 
+3. black
