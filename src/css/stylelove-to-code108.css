@@ -1,7 +1,6 @@
-
 /* ================================================== */
 /* declaring all the root related stuff and the stuff that will effect the entire page here */
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
@@ -11,19 +10,19 @@
 
 /* ================================================== */
 /* getting started with the landingPage */
-#landingPage{
-    height: 100svh;
+#landingPage {
+    height: 100vh;
     width: 100%;
 }
 
-.landingPagebackground{
+.landingPagebackground {
     background-color: #0148a3;
     width: inherit;
     height: inherit;
-    
+
 }
 
-.landingPageButton{
+.landingPageButton {
     width: 15rem;
     height: 3.2rem;
     background-color: white;
@@ -32,12 +31,4 @@
     font-weight: 600;
     font-size: 1.2rem;
 
-}
-#btn{
-    position: absolute;
-    top: 10rem;
-}
-
-#random{
-   display: none;
 }
