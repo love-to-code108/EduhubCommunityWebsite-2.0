@@ -1,27 +1,5 @@
 
 
-
-
-// hiding the small particles before the animation begins
-const hide
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let anime = gsap.timeline();
 
 anime.
