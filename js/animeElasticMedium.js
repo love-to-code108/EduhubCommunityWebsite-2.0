@@ -1,6 +1,8 @@
 let animeMed = gsap.timeline();
 
 animeMed
+
+// 1st div
 .to("#div19",{
     delay:3.9,
     ease:"elastic",
@@ -8,64 +10,67 @@ animeMed
     x: -350,
     y: -348.85
 })
+
+// 2nd div
 .to("#div20",{
-    delay:3.9,
     ease:"elastic",
     duration:2,
-    x: -350,
-    y: -348.85
+    x: -840,
+    y: 10
 },"<")
+
+// 3rd div
 .to("#div21",{
-    delay:3.9,
     ease:"elastic",
     duration:2,
-    x: -350,
-    y: -348.85
+    x: -640,
+    y: +398.85
 },"<")
+
+// 4th div
 .to("#div22",{
-    delay:3.9,
     ease:"elastic",
     duration:2,
-    x: -350,
-    y: -348.85
+    x: -190,
+    y: 300
 },"<")
+
+// 5th div
 .to("#div23",{
-    delay:3.9,
     ease:"elastic",
     duration:2,
-    x: -350,
-    y: -348.85
+    x: -810,
+    y: -350
 },"<")
+
+// 6th div
 .to("#div24",{
-    delay:3.9,
     ease:"elastic",
     duration:2,
-    x: -350,
-    y: -348.85
+    x: +390,
+    y: -35
 },"<")
+
+// 7th div
 .to("#div25",{
-    delay:3.9,
     ease:"elastic",
     duration:2,
-    x: -350,
-    y: -348.85
+    x: +490,
+    y: +248.85
 },"<")
 .to("#div26",{
-    delay:3.9,
     ease:"elastic",
     duration:2,
     x: -350,
     y: -348.85
 },"<")
 .to("#div27",{
-    delay:3.9,
     ease:"elastic",
     duration:2,
     x: -350,
     y: -348.85
 },"<")
 .to("#div28",{
-    delay:3.9,
     ease:"elastic",
     duration:2,
     x: -350,
