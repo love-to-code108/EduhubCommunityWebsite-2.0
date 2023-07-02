@@ -36,15 +36,15 @@ from("#firstelm" ,{
     duration:2,
     ease:"elastic",
     x:-700,
-    y:0,
+    y:+70,
 },"<")
 // plotted div3
 .to("#div3",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-700,
-    y:+222.22,
+    x:-600,
+    y:+282.22,
 },"<")
 
 // plotted div4
@@ -79,8 +79,8 @@ from("#firstelm" ,{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-700,
-    y:-222.2,
+    x:-650,
+    y:-182.2,
 },"<")
 
 // plotted div8
@@ -97,7 +97,7 @@ from("#firstelm" ,{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-300,
+    x:-350,
     y:-166.66,
 },"<")
 
