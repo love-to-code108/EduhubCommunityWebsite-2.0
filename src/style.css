@@ -48,7 +48,15 @@
     border-radius: 50%;
     position: absolute;
     visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+
+/* ====================================================== */
+/* image trimmers down here */
 
 
 
