@@ -21,75 +21,165 @@ from("#firstelm" ,{
 // =======================================
 // the small particles prepare
 
+// plotted div1
 .to("#div1",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:+900,
-    y:+200,
+    x:-300,
+    y:+44.44,
 })
+
+// plotted div2
 .to("#div2",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:+920,
-    y:-270,
+    x:-700,
+    y:0,
 },"<")
+// plotted div3
 .to("#div3",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-910,
-    y:-260,
+    x:-700,
+    y:+222.22,
 },"<")
+
+// plotted div4
 .to("#div4",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-900,
-    y:+220,
+    x:-400,
+    y:+444.4,
 },"<")
+
+// plotted div5
 .to("#div5",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-100,
-    y:-300,
+    x:+0,
+    y:+333.32,
 },"<")
+
+// plotted div6
 .to("#div6",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-500,
-    y:-200,
+    x:-900,
+    y:-111.11,
 },"<")
+
+// plotted div7
 .to("#div7",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-400,
-    y:-200,
+    x:-700,
+    y:-222.2,
 },"<")
+
+// plotted div8
 .to("#div8",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-300,
-    y:-200,
+    x:-400,
+    y:-444.4,
 },"<")
+
+// plotted div9
 .to("#div9",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-200,
-    y:-200,
+    x:-300,
+    y:-166.66,
 },"<")
+
+// plotted div10
 .to("#div10",{
     scale:1.2,
     duration:2,
     ease:"elastic",
-    x:-100,
-    y:-200,
+    x:0,
+    y:-333.32,
+},"<")
+
+// plotted div11
+.to("#div11",{
+    scale:1.2,
+    duration:2,
+    ease:"elastic",
+    x:+400,
+    y:+444.4,
+},"<")
+
+// plotted div12
+.to("#div12",{
+    scale:1.2,
+    duration:2,
+    ease:"elastic",
+    x: +600,
+    y: 0,
+},"<")
+
+// plotted div13
+.to("#div13",{
+    scale:1.2,
+    duration:2,
+    ease:"elastic",
+    x: +300,
+    y: +111.1,
+},"<")
+
+// plotted div14
+.to("#div14",{
+    scale:1.2,
+    duration:2,
+    ease:"elastic",
+    x:+900,
+    y: +111.11,
+},"<")
+
+// plotted div15
+.to("#div15",{
+    scale:1.2,
+    duration:2,
+    ease:"elastic",
+    x:+600,
+    y: 0,
+},"<")
+
+// plotted div16
+.to("#div16",{
+    scale:1.2,
+    duration:2,
+    ease:"elastic",
+    x:+300,
+    y:-166.65,
+},"<")
+
+// plotted div17
+.to("#div17",{
+    scale:1.2,
+    duration:2,
+    ease:"elastic",
+    x: 700,
+    y: -222.2,
+},"<")
+
+// plotted div18
+.to("#div18",{
+    scale:1.2,
+    duration:2,
+    ease:"elastic",
+    x:+400,
+    y:-444.4,
 },"<")
 
 // ==============================================
