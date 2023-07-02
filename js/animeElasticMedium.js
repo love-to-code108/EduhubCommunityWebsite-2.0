@@ -39,8 +39,8 @@ animeMedium
 .to("#div23",{
     ease:"elastic",
     duration:2,
-    x: -810,
-    y: -350
+    x: -630,
+    y: -370
 },"<")
 
 // 6th div
@@ -58,21 +58,19 @@ animeMedium
     x: +490,
     y: +248.85
 },"<")
+
+// 8th div
 .to("#div26",{
     ease:"elastic",
     duration:2,
-    x: -350,
-    y: -348.85
+    x: 762,
+    y: -350
 },"<")
+
+// 9th div
 .to("#div27",{
     ease:"elastic",
     duration:2,
-    x: -350,
-    y: -348.85
-},"<")
-.to("#div28",{
-    ease:"elastic",
-    duration:2,
-    x: -350,
-    y: -348.85
+    x: -830,
+    y: -270
 },"<")
