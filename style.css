@@ -32,6 +32,21 @@
     overflow-x: hidden;
     visibility: hidden;
 }
+.medium{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.Large{
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
 
 
 

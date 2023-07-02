@@ -187,6 +187,6 @@ from("#firstelm" ,{
 .to("#firstelm" ,{
     scale: 1.4,
     ease:"elastic",
-    duration:0.8,
+    duration:1,
 },"<")
     
