@@ -16,12 +16,9 @@
 
 <body>
     <div id="black">
-        <!-- <svg id="button" viewport="0 0 10000 10000">
-            <circle id="circle" r="50px" fill="red" cx="50%" cy="50%" stroke="white" stroke-width="100px"/>
-        </svg>
-        <div id="circle2"><p>WHERE TO START</p></div> -->
-        <!-- ================================================= -->
-        <!-- small divs -->
+        
+
+        
         <div id="firstelm"></div>
         <div id="div1" class="small"></div>
         <div id="div2" class="small"></div>
@@ -42,7 +39,7 @@
         <div id="div17" class="small"></div>
         <div id="div18" class="small"></div>
 
-        
+
         <!-- ================================================= -->
         <!-- medium divs -->
         <div id="div19" class="medium"></div>
@@ -83,27 +80,58 @@
 
         const hidingSmallWhiteDots = () => {
 
+            // ================================================
+            // unhiding the small particles after the animation begins
+            const hideUnhideSmall = document.getElementsByClassName("small");
 
-            // hiding the small particles before the animation begins
-            const hideUnhide = document.getElementsByClassName("small");
-            hideUnhide[0].style.visibility = "visible";
-            hideUnhide[1].style.visibility = "visible";
-            hideUnhide[2].style.visibility = "visible";
-            hideUnhide[3].style.visibility = "visible";
-            hideUnhide[4].style.visibility = "visible";
-            hideUnhide[5].style.visibility = "visible";
-            hideUnhide[6].style.visibility = "visible";
-            hideUnhide[7].style.visibility = "visible";
-            hideUnhide[8].style.visibility = "visible";
-            hideUnhide[9].style.visibility = "visible";
-            hideUnhide[10].style.visibility = "visible";
-            hideUnhide[11].style.visibility = "visible";
-            hideUnhide[12].style.visibility = "visible";
-            hideUnhide[13].style.visibility = "visible";
-            hideUnhide[14].style.visibility = "visible";
-            hideUnhide[15].style.visibility = "visible";
-            hideUnhide[16].style.visibility = "visible";
-            hideUnhide[17].style.visibility = "visible";
+            hideUnhideSmall[0].style.visibility = "visible";
+            hideUnhideSmall[1].style.visibility = "visible";
+            hideUnhideSmall[2].style.visibility = "visible";
+            hideUnhideSmall[3].style.visibility = "visible";
+            hideUnhideSmall[4].style.visibility = "visible";
+            hideUnhideSmall[5].style.visibility = "visible";
+            hideUnhideSmall[6].style.visibility = "visible";
+            hideUnhideSmall[7].style.visibility = "visible";
+            hideUnhideSmall[8].style.visibility = "visible";
+            hideUnhideSmall[9].style.visibility = "visible";
+            hideUnhideSmall[10].style.visibility = "visible";
+            hideUnhideSmall[11].style.visibility = "visible";
+            hideUnhideSmall[12].style.visibility = "visible";
+            hideUnhideSmall[13].style.visibility = "visible";
+            hideUnhideSmall[14].style.visibility = "visible";
+            hideUnhideSmall[15].style.visibility = "visible";
+            hideUnhideSmall[16].style.visibility = "visible";
+            hideUnhideSmall[17].style.visibility = "visible";
+
+            // =============================================
+            // unhiding the small particles after the animation begins
+            const hideUnhideMedium = document.getElementsByClassName("medium");
+
+            hideUnhideMedium[0].style.visibility = "visible";
+            hideUnhideMedium[1].style.visibility = "visible";
+            hideUnhideMedium[2].style.visibility = "visible";
+            hideUnhideMedium[3].style.visibility = "visible";
+            hideUnhideMedium[4].style.visibility = "visible";
+            hideUnhideMedium[5].style.visibility = "visible";
+            hideUnhideMedium[6].style.visibility = "visible";
+            hideUnhideMedium[7].style.visibility = "visible";
+            hideUnhideMedium[8].style.visibility = "visible";
+
+
+            // =============================================
+            // unhiding the small particles after the animation begins
+            const hideUnhideLarge = document.getElementsByClassName("Large");
+
+            hideUnhideLarge[0].style.visibility = "visible";
+            hideUnhideLarge[1].style.visibility = "visible";
+            hideUnhideLarge[2].style.visibility = "visible";
+            hideUnhideLarge[3].style.visibility = "visible";
+            hideUnhideLarge[4].style.visibility = "visible";
+            hideUnhideLarge[5].style.visibility = "visible";
+            hideUnhideLarge[6].style.visibility = "visible";
+            hideUnhideLarge[7].style.visibility = "visible";
+            hideUnhideLarge[8].style.visibility = "visible";
+
         }
 
         let timer1 = setTimeout(hidingSmallWhiteDots, 3000);
@@ -111,9 +139,10 @@
 
         // 
     </script>
+    <!-- ================================================= -->
+    <!-- all the elastic animation files below -->
     <script src="../js/animeElasticMin.js"></script>
     <script src="../js/animeElasticMedium.js"></script>
-    <script src="../js/pointerTracker.js"></script>
     <script src="../js/animeElasticLarge.js"></script>
 </body>
 

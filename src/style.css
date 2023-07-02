@@ -38,6 +38,7 @@
     background-color: white;
     border-radius: 50%;
     position: absolute;
+    visibility: hidden;
 }
 
 .Large{
@@ -46,6 +47,7 @@
     background-color: white;
     border-radius: 50%;
     position: absolute;
+    visibility: hidden;
 }
 
 
