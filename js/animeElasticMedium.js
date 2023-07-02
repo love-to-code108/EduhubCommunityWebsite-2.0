@@ -1,6 +1,6 @@
-let animeMed = gsap.timeline();
+let animeMedium = gsap.timeline();
 
-animeMed
+animeMedium
 
 // 1st div
 .to("#div19",{
