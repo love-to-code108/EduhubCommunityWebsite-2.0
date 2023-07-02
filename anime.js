@@ -3,11 +3,14 @@
 let anime = gsap.timeline();
 
 anime.
+// =======================================
 // the animation begins
+
 from("#firstelm" ,{
     y :-5000,
     ease:"power4",
     duration:1.8})
+// =======================================
 // the rotation starts
 .to("#firstelm" ,{
     rotation: 360*20,
@@ -15,7 +18,7 @@ from("#firstelm" ,{
     scale:0.8,
     duration:3,
 },"<0.9")
-
+// =======================================
 // the small particles prepare
 
 .to("#div1",{
@@ -88,8 +91,11 @@ from("#firstelm" ,{
     x:-100,
     y:-200,
 },"<")
+
+// ==============================================
+// the explosion effect
 .to("#firstelm" ,{
-    scale: 1.6,
+    scale: 1.4,
     ease:"elastic",
     duration:0.8,
 },"<")
