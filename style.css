@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+#black{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstelm{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    overflow-x: hidden;
+}
+.small{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#button{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(153, 11, 11,0);
+    transform: rotate(-90deg);
+    
+}
+
+#circle{
+    stroke-dasharray: 315;
+    stroke-dashoffset: 315;
+    animation: start 2s ease-in-out forwards;
+    pointer-events: none;
+}
+
+@keyframes start {
+    100%{
+        stroke-dashoffset: 0;
+        display: none;
+    }
+}
+#circle2{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(2, 2, 2);
+    border-radius: 50%;
+    position: absolute;
+    color: rgba(202, 198, 198,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+
+
+    /* animation *//*
+    animation-name: inside;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.6s;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes inside {
+    100%{
+        color: black;
+        font-size: 1.2rem;
+        background-color: rgb(104, 100, 100);
+        box-shadow: 4px 4px rgb(78, 75, 75);
+    }
+}
+*/
