@@ -69,8 +69,11 @@
     padding-left: 1rem;
     padding-top: 1.5rem;
 }
+
+/* ============================= */
+/* etherium */
 .imgTrim30{
-    width: 10rem;
+    width: 5rem;
     height: auto;
 }
 .imgTrim31{
@@ -87,9 +90,25 @@
     padding-top: 1rem;
 }
 
-
+/* ============================== */
+/* react */
 .imgTrim34{
-    width: 6rem;
+    width: 7rem;
+    height: auto;
+}
+
+/* ============================ */
+/* kubernetis */
+.imgTrim36{
+    width: 8rem;
+    height: auto;
+    padding-bottom: 0.4rem;
+}
+
+/* ============================= */
+/* solidity */
+.imgTrim37{
+    width: 5rem;
     height: auto;
 }
 
