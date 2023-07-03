@@ -39,6 +39,9 @@
     border-radius: 50%;
     position: absolute;
     visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Large{
@@ -58,6 +61,81 @@
 
 /* ====================================================== */
 /* image trimmers down here */
+
+
+/* ======================================================================================= */
+/* medium bubbles below */
+
+/* =========================== */
+/* python */
+.imgTrim19M{
+    width: 4.5rem;
+    height: auto;
+}
+
+/* ============================ */
+/* java */
+.imgTrim20M{
+    width: 4.5rem;
+    height: auto;
+}
+
+/* ============================ */
+/* ubuntu */
+.imgTrim21M{
+    width: 5rem;
+    height: auto;
+}
+
+/* ============================ */
+/* unity */
+.imgTrim22M{
+    width: 5rem;
+    height: auto;
+}
+
+/* ============================ */
+/* next.js */
+.imgTrim23M{
+    width: 4.5rem;
+    height: auto;
+}
+
+/* ============================ */
+/* html */
+.imgTrim24M{
+    width: 4.5rem;
+    height: auto;
+    padding-top: 0.5rem;
+}
+
+/* ============================ */
+/* Nvdia */
+.imgTrim25M{
+    width: 4.5rem;
+    height: auto;
+}
+
+/* ============================ */
+/* Google CLoud */
+.imgTrim26M{
+    width: 4.5rem;
+    height: auto;
+    padding-bottom: 0.5rem;
+}
+
+/* ============================ */
+/* aws */
+.imgTrim27M{
+    width: 4.5rem;
+    height: auto;
+}
+
+
+
+
+/* ========================================================================================== */
+/* large bubbles below */
 
 
 /* ============================ */
