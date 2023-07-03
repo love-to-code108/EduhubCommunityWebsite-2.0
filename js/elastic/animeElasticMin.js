@@ -189,4 +189,12 @@ from("#firstelm" ,{
     ease:"elastic",
     duration:1,
 },"<")
+
+// ==============================================
+// the explosion effect for the shadow of the first element
+.to("#shadowelm" ,{
+    scale:1.4,
+    ease:"elastic",
+    duration:1,
+},"<")
     

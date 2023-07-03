@@ -27,8 +27,8 @@
 }
 
 #shadowelm{
-    width: 340px;
-    height: 340px;
+    width: 240px;
+    height: 240px;
     background-image: radial-gradient(black , rgb(83, 79, 79) );
     border-radius: 50%;
     position: absolute;
