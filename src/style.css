@@ -110,9 +110,9 @@
 }
 
 /* ============================ */
-/* Nvdia */
+/* rust */
 .imgTrim25M{
-    width: 4.5rem;
+    width: 5.5rem;
     height: auto;
 }
 
@@ -131,6 +131,12 @@
     height: auto;
 }
 
+/* ============================ */
+/* aws */
+.imgTrim28M{
+    width: 5rem;
+    height: auto;
+}
 
 
 

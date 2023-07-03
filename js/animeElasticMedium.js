@@ -63,8 +63,8 @@ animeMedium
 .to("#div26",{
     ease:"elastic",
     duration:2,
-    x: 762,
-    y: -350
+    x: 862,
+    y: -250
 },"<")
 
 // 9th div
@@ -73,4 +73,12 @@ animeMedium
     duration:2,
     x: -830,
     y: -270
+},"<")
+
+// 10th div
+.to("#div28",{
+    ease:"elastic",
+    duration:2,
+    x: 662,
+    y: -400
 },"<")
