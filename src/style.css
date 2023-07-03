@@ -22,7 +22,16 @@
     height: 200px;
     background-color: white;
     overflow-x: hidden;
+    
 }
+
+.noPointerEvent{
+    pointer-events: none;
+}
+
+
+/* ================================================== */
+/* small medium and large divs below */
 .small{
     width: 10px;
     height: 10px;
@@ -32,6 +41,7 @@
     overflow-x: hidden;
     visibility: hidden;
 }
+
 .medium{
     width: 100px;
     height: 100px;
@@ -43,6 +53,13 @@
     justify-content: center;
     align-items: center;
 }
+
+.medium:hover{
+    cursor: pointer;
+    
+}
+
+
 
 .Large{
     width: 10rem;
