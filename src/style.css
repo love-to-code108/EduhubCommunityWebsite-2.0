@@ -1,4 +1,8 @@
-*{
+
+/* ========================================================= */
+/* things that affect the entire page */
+
+* {
     padding: 0;
     margin: 0;
     border: 0;
@@ -6,8 +10,23 @@
     overflow-y: hidden;
 }
 
+.userSelectionNone{
+    /* to disable selection */
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
-#black{
+
+.noPointerEvent {
+    pointer-events: none;
+}
+
+
+
+/* =========================================================== */
+/* the body elements start here */
+#black {
     background-color: black;
     width: 100vw;
     height: 100vh;
@@ -18,30 +37,28 @@
     z-index: -4;
 }
 
-#firstelm{
+#firstelm {
     width: 200px;
     height: 200px;
     background-color: white;
     overflow-x: hidden;
-    
+
 }
 
-#shadowelm{
+#shadowelm {
     width: 240px;
     height: 240px;
-    background-image: radial-gradient(black , rgb(83, 79, 79) );
+    background-image: radial-gradient(black, rgb(83, 79, 79));
     border-radius: 50%;
     position: absolute;
     visibility: hidden;
 }
-.noPointerEvent{
-    pointer-events: none;
-}
+
 
 
 /* ================================================== */
 /* small medium and large divs below */
-.small{
+.small {
     width: 10px;
     height: 10px;
     position: absolute;
@@ -51,7 +68,7 @@
     visibility: hidden;
 }
 
-.medium{
+.medium {
     width: 100px;
     height: 100px;
     background-color: white;
@@ -61,16 +78,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.medium:hover{
+
+
+.medium:hover {
     cursor: pointer;
-    
+
 }
 
 
 
-.Large{
+.Large {
     width: 10rem;
     height: 10rem;
     background-color: white;
@@ -81,7 +101,7 @@
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
-    
+
 }
 
 
@@ -94,42 +114,42 @@
 
 /* =========================== */
 /* python */
-.imgTrim19M{
+.imgTrim19M {
     width: 4.5rem;
     height: auto;
 }
 
 /* ============================ */
 /* java */
-.imgTrim20M{
+.imgTrim20M {
     width: 4.5rem;
     height: auto;
 }
 
 /* ============================ */
 /* ubuntu */
-.imgTrim21M{
+.imgTrim21M {
     width: 5rem;
     height: auto;
 }
 
 /* ============================ */
 /* unity */
-.imgTrim22M{
+.imgTrim22M {
     width: 5rem;
     height: auto;
 }
 
 /* ============================ */
 /* next.js */
-.imgTrim23M{
+.imgTrim23M {
     width: 4.5rem;
     height: auto;
 }
 
 /* ============================ */
 /* html */
-.imgTrim24M{
+.imgTrim24M {
     width: 4.5rem;
     height: auto;
     padding-top: 0.5rem;
@@ -137,14 +157,14 @@
 
 /* ============================ */
 /* rust */
-.imgTrim25M{
+.imgTrim25M {
     width: 5.5rem;
     height: auto;
 }
 
 /* ============================ */
 /* Google CLoud */
-.imgTrim26M{
+.imgTrim26M {
     width: 4.5rem;
     height: auto;
     padding-bottom: 0.5rem;
@@ -152,14 +172,14 @@
 
 /* ============================ */
 /* aws */
-.imgTrim27M{
+.imgTrim27M {
     width: 4.5rem;
     height: auto;
 }
 
 /* ============================ */
 /* aws */
-.imgTrim28M{
+.imgTrim28M {
     width: 5rem;
     height: auto;
 }
@@ -172,14 +192,14 @@
 
 /* ============================ */
 /* github */
-.imgTrim{
+.imgTrim {
     width: 9rem;
     height: auto;
 }
 
 /* ============================ */
 /* docker */
-.imgTrim29{
+.imgTrim29 {
     width: 8.5rem;
     height: auto;
     padding-left: 1rem;
@@ -188,14 +208,14 @@
 
 /* ============================= */
 /* etherium */
-.imgTrim30{
+.imgTrim30 {
     width: 5rem;
     height: auto;
 }
 
 /* ============================== */
 /* css3 */
-.imgTrim31{
+.imgTrim31 {
     width: 7rem;
     height: auto;
     padding-top: 1rem;
@@ -203,7 +223,7 @@
 
 /* ============================== */
 /* node js */
-.imgTrim33{
+.imgTrim33 {
     width: 8rem;
     height: auto;
     padding-top: 1rem;
@@ -211,7 +231,7 @@
 
 /* ============================== */
 /* react */
-.imgTrim34{
+.imgTrim34 {
     width: 7rem;
     height: auto;
 }
@@ -219,13 +239,14 @@
 
 /* ============================ */
 /* javascript */
-.imgTrim35{
-    width:6rem ;
+.imgTrim35 {
+    width: 6rem;
     height: auto;
 }
+
 /* ============================ */
 /* kubernetis */
-.imgTrim36{
+.imgTrim36 {
     width: 8rem;
     height: auto;
     padding-bottom: 0.4rem;
@@ -233,78 +254,9 @@
 
 /* ============================= */
 /* solidity */
-.imgTrim37{
+.imgTrim37 {
     width: 5rem;
     height: auto;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-#button{
-    width: 200px;
-    height: 200px;
-    background-color: rgba(153, 11, 11,0);
-    transform: rotate(-90deg);
-    
-}
-
-#circle{
-    stroke-dasharray: 315;
-    stroke-dashoffset: 315;
-    animation: start 2s ease-in-out forwards;
-    pointer-events: none;
-}
-
-@keyframes start {
-    100%{
-        stroke-dashoffset: 0;
-        display: none;
-    }
-}
-#circle2{
-    width: 180px;
-    height: 180px;
-    background-color: rgb(2, 2, 2);
-    border-radius: 50%;
-    position: absolute;
-    color: rgba(202, 198, 198,1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 800;
-
-
-    /* animation *//*
-    animation-name: inside;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-delay: 1.6s;
-    animation-timing-function: ease-in-out;
-
-}
-@keyframes inside {
-    100%{
-        color: black;
-        font-size: 1.2rem;
-        background-color: rgb(104, 100, 100);
-        box-shadow: 4px 4px rgb(78, 75, 75);
-    }
-}
-*/

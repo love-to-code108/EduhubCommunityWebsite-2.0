@@ -7,7 +7,7 @@ animeLarge
     delay:3.9,
     ease: "elastic",
     x:-150,
-    y:-250,
+    y:-300,
     duration:2,
 })
 

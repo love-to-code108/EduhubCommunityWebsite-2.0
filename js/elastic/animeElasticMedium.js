@@ -7,7 +7,7 @@ animeMedium
     delay:3.9,
     ease:"elastic",
     duration:2,
-    x: -350,
+    x: -400,
     y: -348.85
 })
 
