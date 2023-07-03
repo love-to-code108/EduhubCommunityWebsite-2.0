@@ -59,10 +59,16 @@
 /* ====================================================== */
 /* image trimmers down here */
 
+
+/* ============================ */
+/* github */
 .imgTrim{
     width: 9rem;
     height: auto;
 }
+
+/* ============================ */
+/* docker */
 .imgTrim29{
     width: 8.5rem;
     height: auto;
@@ -76,6 +82,9 @@
     width: 5rem;
     height: auto;
 }
+
+/* ============================== */
+/* css3 */
 .imgTrim31{
     width: 7rem;
     height: auto;
@@ -97,6 +106,13 @@
     height: auto;
 }
 
+
+/* ============================ */
+/* javascript */
+.imgTrim35{
+    width:6rem ;
+    height: auto;
+}
 /* ============================ */
 /* kubernetis */
 .imgTrim36{
