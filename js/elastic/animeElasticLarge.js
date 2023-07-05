@@ -9,6 +9,7 @@ animeLarge
     x:-150,
     y:-300,
     duration:2,
+    
 })
 
 // 2nd div
